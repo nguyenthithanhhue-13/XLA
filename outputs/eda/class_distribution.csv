@@ -1,0 +1,6 @@
+label,class_name,count,percent,train,valid,test
+0,No DR,80,20.0,40,16,24
+1,Mild NPDR,80,20.0,40,16,24
+2,Moderate NPDR,80,20.0,40,16,24
+3,Severe NPDR,80,20.0,40,16,24
+4,PDR,80,20.0,40,16,24

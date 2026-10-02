@@ -1,0 +1,9 @@
+split,filename,label,width,height,aspect_ratio,file_size_kb,brightness_full,contrast_full,brightness_fg,contrast_fg,fg_ratio,sharpness,crop_ok,crop_width,crop_height,too_dark,too_bright,low_contrast,blurry,crop_failed
+train,007-6560-400.jpg,4,2592,1728,1.5,768.4,87.983,101.28,199.339,32.287,0.4414,7.1,True,1617,1617,False,True,False,False,False
+valid,20170407111908406.jpg,0,2592,1728,1.5,893.4,84.043,97.108,190.748,32.383,0.4406,19.717,True,1617,1617,False,True,False,False,False
+valid,007-6814-400.jpg,4,2592,1728,1.5,474.6,86.463,100.473,195.913,37.833,0.4413,9.934,True,1617,1617,False,True,False,False,False
+test,20170414094409562.jpg,0,2592,1728,1.5,835.8,82.741,95.576,187.952,31.234,0.4402,26.712,True,1612,1617,False,True,False,False,False
+test,20170518144607066.jpg,2,2592,1728,1.5,621.2,83.279,95.886,189.107,29.412,0.4404,42.035,True,1612,1617,False,True,False,False,False
+test,007-7221-400.jpg,4,2992,2000,1.496,1992.2,13.624,13.748,22.707,11.617,0.5641,4.997,True,2308,2000,False,False,False,True,False
+test,007-7052-400.jpg,4,2304,1728,1.3333,91.8,24.437,23.881,41.995,15.611,0.5816,4.105,True,1754,1728,False,False,False,True,False
+test,007-7258-400.jpg,4,2464,1632,1.5098,114.5,100.527,102.808,100.527,102.808,0.0,513.846,False,2464,1632,False,False,False,False,True

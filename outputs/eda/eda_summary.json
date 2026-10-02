@@ -1,0 +1,317 @@
+{
+  "total_images": 400,
+  "images_per_split": {
+    "train": 200,
+    "valid": 80,
+    "test": 120
+  },
+  "class_distribution": [
+    {
+      "label": 0,
+      "class_name": "No DR",
+      "count": 80,
+      "percent": 20.0,
+      "train": 40,
+      "valid": 16,
+      "test": 24
+    },
+    {
+      "label": 1,
+      "class_name": "Mild NPDR",
+      "count": 80,
+      "percent": 20.0,
+      "train": 40,
+      "valid": 16,
+      "test": 24
+    },
+    {
+      "label": 2,
+      "class_name": "Moderate NPDR",
+      "count": 80,
+      "percent": 20.0,
+      "train": 40,
+      "valid": 16,
+      "test": 24
+    },
+    {
+      "label": 3,
+      "class_name": "Severe NPDR",
+      "count": 80,
+      "percent": 20.0,
+      "train": 40,
+      "valid": 16,
+      "test": 24
+    },
+    {
+      "label": 4,
+      "class_name": "PDR",
+      "count": 80,
+      "percent": 20.0,
+      "train": 40,
+      "valid": 16,
+      "test": 24
+    }
+  ],
+  "image_size": {
+    "width": {
+      "min": 1380.0,
+      "q1": 2048.0,
+      "median": 2592.0,
+      "q3": 2736.0,
+      "max": 5184.0,
+      "mean": 2556.34,
+      "std": 642.415
+    },
+    "height": {
+      "min": 1137.0,
+      "q1": 1728.0,
+      "median": 1728.0,
+      "q3": 2000.0,
+      "max": 3456.0,
+      "mean": 1907.122,
+      "std": 477.548
+    },
+    "aspect_ratio": {
+      "min": 0.995,
+      "q1": 1.323,
+      "median": 1.494,
+      "q3": 1.5,
+      "max": 1.51,
+      "mean": 1.349,
+      "std": 0.187
+    },
+    "unique_resolutions": 39,
+    "most_common": [
+      {
+        "width": 2592,
+        "height": 1728,
+        "count": 90
+      },
+      {
+        "width": 2736,
+        "height": 1824,
+        "count": 53
+      },
+      {
+        "width": 2048,
+        "height": 1536,
+        "count": 49
+      },
+      {
+        "width": 2304,
+        "height": 1728,
+        "count": 23
+      },
+      {
+        "width": 1380,
+        "height": 1382,
+        "count": 22
+      },
+      {
+        "width": 3888,
+        "height": 2592,
+        "count": 20
+      },
+      {
+        "width": 1956,
+        "height": 1934,
+        "count": 16
+      },
+      {
+        "width": 2992,
+        "height": 2000,
+        "count": 16
+      },
+      {
+        "width": 2960,
+        "height": 2935,
+        "count": 14
+      },
+      {
+        "width": 2976,
+        "height": 2976,
+        "count": 12
+      }
+    ]
+  },
+  "brightness_full": {
+    "min": 13.624,
+    "q1": 41.035,
+    "median": 51.035,
+    "q3": 67.55,
+    "max": 132.736,
+    "mean": 54.229,
+    "std": 19.05
+  },
+  "contrast_full": {
+    "min": 13.748,
+    "q1": 38.155,
+    "median": 48.707,
+    "q3": 59.283,
+    "max": 102.808,
+    "mean": 50.427,
+    "std": 16.921
+  },
+  "brightness_fg": {
+    "min": 22.707,
+    "q1": 73.673,
+    "median": 94.71,
+    "q3": 115.791,
+    "max": 199.339,
+    "mean": 97.924,
+    "std": 33.951
+  },
+  "contrast_fg": {
+    "min": 9.197,
+    "q1": 19.956,
+    "median": 24.811,
+    "q3": 31.58,
+    "max": 102.808,
+    "mean": 26.251,
+    "std": 9.411
+  },
+  "sharpness": {
+    "min": 4.105,
+    "q1": 22.296,
+    "median": 34.924,
+    "q3": 56.851,
+    "max": 513.846,
+    "mean": 45.538,
+    "std": 40.911
+  },
+  "fg_ratio": {
+    "min": 0.0,
+    "q1": 0.439,
+    "median": 0.522,
+    "q3": 0.674,
+    "max": 0.898,
+    "mean": 0.56,
+    "std": 0.14
+  },
+  "brightness_contrast_per_class": {
+    "No DR": {
+      "brightness_fg": {
+        "min": 41.708,
+        "q1": 68.305,
+        "median": 93.059,
+        "q3": 106.813,
+        "max": 190.748,
+        "mean": 93.034,
+        "std": 32.433
+      },
+      "contrast_fg": {
+        "min": 9.197,
+        "q1": 17.344,
+        "median": 22.948,
+        "q3": 32.616,
+        "max": 49.449,
+        "mean": 25.426,
+        "std": 10.108
+      }
+    },
+    "Mild NPDR": {
+      "brightness_fg": {
+        "min": 37.115,
+        "q1": 74.456,
+        "median": 95.683,
+        "q3": 119.0,
+        "max": 176.727,
+        "mean": 99.241,
+        "std": 31.633
+      },
+      "contrast_fg": {
+        "min": 9.583,
+        "q1": 20.682,
+        "median": 24.517,
+        "q3": 31.174,
+        "max": 51.116,
+        "mean": 25.704,
+        "std": 7.576
+      }
+    },
+    "Moderate NPDR": {
+      "brightness_fg": {
+        "min": 37.307,
+        "q1": 69.931,
+        "median": 96.057,
+        "q3": 114.694,
+        "max": 189.107,
+        "mean": 97.634,
+        "std": 36.428
+      },
+      "contrast_fg": {
+        "min": 10.892,
+        "q1": 20.524,
+        "median": 26.285,
+        "q3": 31.189,
+        "max": 54.36,
+        "mean": 27.12,
+        "std": 9.117
+      }
+    },
+    "Severe NPDR": {
+      "brightness_fg": {
+        "min": 37.543,
+        "q1": 76.546,
+        "median": 95.766,
+        "q3": 115.955,
+        "max": 178.202,
+        "mean": 100.169,
+        "std": 32.285
+      },
+      "contrast_fg": {
+        "min": 11.59,
+        "q1": 19.744,
+        "median": 25.164,
+        "q3": 30.664,
+        "max": 49.021,
+        "mean": 25.657,
+        "std": 7.481
+      }
+    },
+    "PDR": {
+      "brightness_fg": {
+        "min": 22.707,
+        "q1": 77.608,
+        "median": 95.273,
+        "q3": 116.693,
+        "max": 199.339,
+        "mean": 99.542,
+        "std": 36.17
+      },
+      "contrast_fg": {
+        "min": 11.612,
+        "q1": 20.655,
+        "median": 25.954,
+        "q3": 31.855,
+        "max": 102.808,
+        "mean": 27.348,
+        "std": 11.869
+      }
+    }
+  },
+  "low_quality": {
+    "thresholds": {
+      "method": "Tukey fences, k=1.5",
+      "brightness_fg_low": 10.495,
+      "brightness_fg_high": 178.97,
+      "contrast_fg_low": 2.519,
+      "sharpness_low": 5.474
+    },
+    "total_flagged": 8,
+    "per_flag": {
+      "too_dark": 0,
+      "too_bright": 5,
+      "low_contrast": 0,
+      "blurry": 2,
+      "crop_failed": 1
+    },
+    "per_class": {
+      "No DR": 2,
+      "Mild NPDR": 0,
+      "Moderate NPDR": 1,
+      "Severe NPDR": 0,
+      "PDR": 5
+    }
+  }
+}
